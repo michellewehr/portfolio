@@ -117,17 +117,19 @@ header nav ul li a {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 .project {
   height: 25vh;
   width: 100%;
+  flex: 0 95%;
   margin: 0.5rem 0;
   position: relative;
 }
 .project a img {
   width: 100%;
   max-height: 100%;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .project-description {
   background-color: var(--green-color);
