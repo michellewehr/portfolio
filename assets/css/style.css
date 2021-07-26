@@ -11,8 +11,7 @@
 .content {
   background-image: linear-gradient(to top, #6991c7 0%, #bdcff1 100%);
   color: white;
-  border-top: 2rem solid white;
-  margin-bottom: 2rem;
+  border-bottom: 1rem solid white;
 }
 footer {
   background-color: white;
@@ -51,19 +50,19 @@ header nav ul li a {
 /*Hero*/
 .hero {
   background-image: linear-gradient(to top, #e4eaf5 0%, #6991c7 100%);
-  height: 55vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 6rem;
   color: white;
+  border-bottom: 1rem solid white;
 }
 .banner {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1rem 3rem;
+  padding: 3rem 3rem;
   text-align: center;
 }
 .banner .hello {
@@ -97,10 +96,9 @@ header nav ul li a {
   letter-spacing: 2px;
 }
 .feature {
-  padding: 1rem 2rem 0 2rem;
+  padding: 2rem 2rem 0 2rem;
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
 }
 .feature p {
   line-height: 1.5;
