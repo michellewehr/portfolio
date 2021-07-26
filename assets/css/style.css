@@ -114,13 +114,14 @@ header nav ul li a {
 }
 .projects {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-top: 1rem;
 }
 .project {
   height: 25vh;
   width: 100%;
-  flex: 0 95%;
+  flex: 1 100%;
   margin: 0.5rem 0;
   position: relative;
 }
@@ -142,6 +143,8 @@ header nav ul li a {
 /*Contact-Me*/
 #contact-me {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 #contact-me h3 {
   font-size: 3rem;
@@ -150,29 +153,27 @@ header nav ul li a {
   text-align: center;
   margin-bottom: 2rem;
 }
-#contact-me img {
-  height: 150px;
-  padding: 1rem;
-}
-.contact-me-icons {
+.contact-me-icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
   flex-wrap: wrap;
+  flex: 1;
+}
+#contact-me img {
+  height: 100%;
+  padding: 1rem;
 }
 .email,
 .github,
 .linkedin {
   background-color: var(--green-color);
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 10px;
   margin: 0.5rem;
   text-align: center;
-  display: flex;
-  flex: 0 25%;
-  justify-content: center;
 }
 .email a,
 .github a,
