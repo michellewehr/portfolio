@@ -203,3 +203,6 @@ footer img {
   max-height: 200px;
   width: 200px;
 }
+footer img:hover {
+  transform: rotate(180deg);
+}
