@@ -53,7 +53,9 @@ header nav ul li a {
   color: var(--green-color);
   font-size: 1rem;
 }
-
+header nav ul li a:hover {
+  font-weight: 600;
+}
 /*Hero*/
 .hero {
   background-image: linear-gradient(to top, #e4eaf5 0%, var(--dark-blue) 100%);
