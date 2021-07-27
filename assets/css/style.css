@@ -23,11 +23,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  color: var(--green-color);
   padding: 1rem;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  letter-spacing: 0.75px;
   line-height: 1.5;
 }
 .logo img {
@@ -43,7 +41,6 @@ header nav ul {
 header nav ul li {
   margin: 1em;
   list-style: none;
-  flex-wrap: wrap;
 }
 header nav ul li a {
   text-decoration: none;
@@ -81,7 +78,7 @@ header nav ul li a {
   border: 5px solid var(--green-color);
   padding: 1rem;
 }
-.hero .profile-pic {
+.profile-pic {
   height: 200px;
   width: 200px;
 }
@@ -196,7 +193,7 @@ header nav ul li a {
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin: 2rem;
 }
 .logo-container {
   height: 300px;
