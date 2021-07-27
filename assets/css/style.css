@@ -267,6 +267,16 @@ footer img:hover {
   }
 }
 @media screen and (min-width: 980px) {
+  .logo img {
+    height: 6rem;
+  }
+  .hero {
+    justify-content: flex-start;
+    padding-top: 4rem;
+  }
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
   .project-description {
     padding: 0.75rem;
   }
