@@ -19,7 +19,6 @@ footer {
 }
 /*Header*/
 header {
-  margin-top: 1rem;
   background-color: #0093e9;
   display: flex;
   justify-content: space-between;
