@@ -56,6 +56,7 @@ header nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
   border-bottom: 1rem solid white;
 }
@@ -96,11 +97,10 @@ header nav ul li a {
   font-size: 2.5rem;
   color: var(--green-color);
   letter-spacing: 2px;
+  padding-bottom: 2rem;
 }
 .feature {
   padding: 2rem 2rem 0 2rem;
-  display: flex;
-  flex-direction: column;
 }
 .feature p {
   line-height: 1.5;
@@ -110,11 +110,19 @@ header nav ul li a {
   margin-bottom: 0;
 }
 /*about-me*/
+#about-me h3 {
+  padding: 2rem 0 1rem 0;
+}
+#about-me p {
+  line-height: 2;
+  letter-spacing: 1px;
+}
 /*my-work*/
 #my-work {
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +146,7 @@ header nav ul li a {
   width: 100%;
   height: 100%;
   opacity: 0.7;
+  object-fit: cover;
 }
 .project-description {
   background-color: var(--green-color);
@@ -171,7 +180,7 @@ header nav ul li a {
 }
 .contact-me-icon-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding-bottom: 2rem;
   flex-wrap: wrap;
@@ -206,8 +215,8 @@ footer {
   margin: 2rem;
 }
 .logo-container {
-  height: 300px;
-  width: 300px;
+  height: 12rem;
+  width: 12rem;
   border-radius: 50%;
   background-color: #0093e9;
   display: flex;
@@ -215,8 +224,8 @@ footer {
   align-items: center;
 }
 footer img {
-  max-height: 200px;
-  width: 200px;
+  max-height: 8rem;
+  width: 8rem;
 }
 footer img:hover {
   transform: rotate(180deg);
@@ -230,16 +239,15 @@ footer img:hover {
     height: auto;
     flex: 1 25%;
   }
+  .project-description {
+    padding: 0.25rem;
+  }
   .dinner-menu {
     height: auto;
     flex: 0 100%;
   }
-  .gallery,
-  .memory-game,
-  .run-buddy,
-  .laptop,
-  .coding {
-    height: 200px;
+  .contact-me-icon-container {
+    justify-content: center;
   }
   .email,
   .github,
@@ -251,15 +259,9 @@ footer img:hover {
   .banner h1 {
     padding: 1rem 2.5rem;
   }
-  .project {
-    flex: 1 30%;
-  }
-  .gallery {
-    height: 300px;
-    flex: 1 20%;
-  }
-  .dinner-menu {
-    height: auto;
-    flex: 1 60%;
+}
+@media screen and (min-width: 980px) {
+  .project-description {
+    padding: 0.75rem;
   }
 }
