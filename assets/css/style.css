@@ -263,12 +263,3 @@ footer img:hover {
     flex: 1 60%;
   }
 }
-@media screen and (min-width: 980px) {
-  .project {
-    flex: 1 25%;
-  }
-  .dinner-menu {
-    flex: 1 50%;
-    height: 400px;
-  }
-}
