@@ -127,8 +127,11 @@ header nav ul li a:hover {
   line-height: 2;
   letter-spacing: 1px;
 }
-hr {
-  border-top: 10px dotted rgba(255, 255, 255, 1);
+#about-me a {
+  line-height: 2;
+  letter-spacing: 1px;
+  color: var(--green-color);
+  text-decoration: none;
 }
 /*my-work*/
 #my-work {
