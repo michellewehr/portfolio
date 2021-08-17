@@ -6,7 +6,7 @@
 * HTML
 * CSS 
 
-## https://michellewehr.github.io/portfolio/index.html#contact-me 
+## https://michellewehr.github.io/portfolio/index.html
 
 ## Contribution 
 Made with ❤️ by Michelle Napolitano Wehr
